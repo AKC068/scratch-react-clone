@@ -3,13 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.13",
+    "@mui/material": "^5.14.13",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.3",
+    "@types/react": "^18.2.26",
+    "@types/react-dom": "^18.2.11",
+    "notistack": "^3.0.1",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "typescript": "^5.2.2",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "react-scripts": {
+      "typescript": "^5"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
