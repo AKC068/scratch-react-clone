@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## PLEASE DON'T UPGRADE THE ANY MODULE OR, LIBRARY VERSIONS. THIS MAY CAUSE DEPENDANCY VARIOUS ISSUES.
+
 ## Available Scripts
 
 In the project directory, you can run:
