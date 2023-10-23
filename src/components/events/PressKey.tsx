@@ -29,6 +29,7 @@ const PressKey = (pressKeyProp: PressKeyProp) => {
     return () => {
       document.removeEventListener("keydown", handleKeyPress);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pressKeyProp.key_pressed, state.key]);
 
   const handleChange = (e) => {
